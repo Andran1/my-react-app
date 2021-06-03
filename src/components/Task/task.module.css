@@ -1,0 +1,15 @@
+.tableBox {
+    width: 10px min-content;
+    border: solid 4px black;
+    padding: 10px;
+    border-radius: 10px;
+    background-image: url('/src/Photo/4d0055fa713ce59a7100f36b950efe8f.jpg');
+}
+
+td {
+    padding: 3px;
+    border: solid 2px black;
+    border-radius: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
