@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-// import styles from "./card.module.css";
 import { Card, Button, Form, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEdit, faTrashAlt } from "@fortawesome/free-solid-svg-icons";
+
 
 export default function Task({
   data,

@@ -4,7 +4,7 @@ import {FormControl,Button,Modal} from 'react-bootstrap'
 import idGenerator from '../../helpers/idGenerator'
 
 export default function AddTask({ close, addNewItems }) {
-
+const [val, setval] = useState(null)
 
   
   const [inputValue, setInputValue] = useState({
